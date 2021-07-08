@@ -1,21 +1,17 @@
 public class Player {
-    private String Name;
-    private int age;
+    private String playerName;
+    private int playerAge;
     private String type;
 
-    public Player(){
+    public Player(String playerName,int playerAge,String type){
+        this.playerName=playerName;
+        this.playerAge=playerAge;
+        this.type=type;
+    }
+
+    public void average(){
 
     }
-    void getAverage(){
 
-    }
-    void getPlayerDetails(){
 
-    }
-    void getBestPerformance(){
-
-    }
-    void getPlayerType(){
-
-    }
 }
