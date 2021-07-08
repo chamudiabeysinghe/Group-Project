@@ -19,6 +19,7 @@ public class Player {
 
     }
     void getPlayerType(){
+       
 
     }
 }
