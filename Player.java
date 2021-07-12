@@ -44,7 +44,7 @@ import java.util.Scanner;
             System.out.println("Batting Average :"+battingAvg);
         }
 
-        public void bowlingAvg() {
+        public void bowllingAvg() {
             int[] wickets ;
             wickets =new int[15];
             int totalwickets=0;
@@ -55,8 +55,8 @@ import java.util.Scanner;
                 wickets[i] = s.nextInt();
                 totalwickets = totalwickets + wickets[i];
             }
-            double BowlingAvg= totalwickets/ wickets.length;
-            System.out.println("Bowling Average :"+BowlingAvg);
+            double BowllingAvg= totalwickets/ wickets.length;
+            System.out.println("Bowlling Average :"+BowllingAvg);
         }
 
 
